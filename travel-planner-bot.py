@@ -83,7 +83,7 @@ def render_sidebar():
     serp_api_key = st.sidebar.text_input(
         "Serp API Key",
         type="password",
-        help="Get your key from [SerpAPI](https://serpapi.com/manage-api-key)."
+        help="Don't have an API key? Get one [here](https://serpapi.com/manage-api-key)."
     )
     if serp_api_key:
         st.session_state.serp_api_key = serp_api_key
